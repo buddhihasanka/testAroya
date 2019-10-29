@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Starter kit for creating React and Express apps",
   "main": "server.js",
+  "homepage": "https://buddhihasanka.github.io/testAroya",
   "scripts": {
     "client-install": "cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run deploy client\""
   },
   "author": "Brad Traversy",
   "license": "MIT",
